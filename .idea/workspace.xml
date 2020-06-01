@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/course/system/SystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/course/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/java/com/course/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/system/src/main/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -60,13 +65,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.course.system" />
       <recent name="com.course" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\course\system\src\main\resources" />
       <recent name="D:\project\course\eureka\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApplication">
+  <component name="RunManager" selected="Spring Boot.SystemApplication">
     <configuration name="CourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="course" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.course.course.CourseApplication" />
@@ -87,8 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.course.system.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -116,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591005201482</updated>
       <workItem from="1591005205023" duration="879000" />
-      <workItem from="1591006107009" duration="995000" />
+      <workItem from="1591006107009" duration="2386000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -132,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591006779126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.解决注册中心服务启动失败的问题&#10;2.优化启动日志显示">
+      <created>1591007258778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591007258778</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.新增system子项目">
+      <created>1591009598368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591009598368</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,13 +214,15 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="首次提交项目" />
     <MESSAGE value="1.增加eureka子模块作为注册服务端&#10;2.将单maven项目改造成maven父子项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.增加eureka子模块作为注册服务端&#10;2.将单maven项目改造成maven父子项目" />
+    <MESSAGE value="1.解决注册中心服务启动失败的问题&#10;2.优化启动日志显示" />
+    <MESSAGE value="1.新增system子项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.新增system子项目" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591006777526">
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591009597660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591006777526" />
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591009597660" />
     <state x="704" y="143" width="1139" height="702" key="DiffContextDialog" timestamp="1591007001037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -194,38 +231,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1035" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591005933980" />
-    <state width="1279" height="234" key="GridCell.Tab.0.bottom" timestamp="1591007159846">
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom" timestamp="1591010318054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591007159846" />
-    <state width="1279" height="234" key="GridCell.Tab.0.center" timestamp="1591007159845">
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591010318054" />
+    <state width="1877" height="364" key="GridCell.Tab.0.center" timestamp="1591010318054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="234" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591007159845" />
-    <state width="1279" height="234" key="GridCell.Tab.0.left" timestamp="1591007159845">
+    <state width="1877" height="364" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591010318054" />
+    <state width="1877" height="364" key="GridCell.Tab.0.left" timestamp="1591010318054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="234" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591007159845" />
-    <state width="1279" height="234" key="GridCell.Tab.0.right" timestamp="1591007159846">
+    <state width="1877" height="364" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591010318054" />
+    <state width="1877" height="364" key="GridCell.Tab.0.right" timestamp="1591010318054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="234" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591007159846" />
-    <state width="1279" height="234" key="GridCell.Tab.1.bottom" timestamp="1591007159847">
+    <state width="1877" height="364" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591010318054" />
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1591010318054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="234" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591007159847" />
-    <state width="1279" height="234" key="GridCell.Tab.1.center" timestamp="1591007159847">
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591010318054" />
+    <state width="1877" height="364" key="GridCell.Tab.1.center" timestamp="1591010318054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="234" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591007159847" />
-    <state width="1279" height="234" key="GridCell.Tab.1.left" timestamp="1591007159847">
+    <state width="1877" height="364" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591010318054" />
+    <state width="1877" height="364" key="GridCell.Tab.1.left" timestamp="1591010318054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="234" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591007159847" />
-    <state width="1279" height="234" key="GridCell.Tab.1.right" timestamp="1591007159847">
+    <state width="1877" height="364" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591010318054" />
+    <state width="1877" height="364" key="GridCell.Tab.1.right" timestamp="1591010318054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1279" height="234" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591007159847" />
+    <state width="1877" height="364" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591010318054" />
     <state x="758" y="169" key="SettingsEditor" timestamp="1591005270645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,9 +275,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591006115189" />
-    <state x="623" y="300" key="new project wizard" timestamp="1591006308430">
+    <state x="623" y="300" key="new project wizard" timestamp="1591009540813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="300" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591006308430" />
+    <state x="623" y="300" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591009540813" />
   </component>
 </project>
