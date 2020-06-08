@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="1.将通用的配置移动到server&#10;注：server配置文件的路径要放在resource/config/下">
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/course/server/domain/TestExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+    <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/course/server/domain/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/course/server/domain/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/course/server/mapper/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/course/server/mapper/TestMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/course/server/server/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/course/server/server/TestServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/mapper/TestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/mapper/TestMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +102,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.mybatis-generator">
+  <component name="RunManager" selected="Spring Boot.SystemApplication">
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -201,7 +195,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -226,7 +220,7 @@
       <workItem from="1591062662291" duration="5283000" />
       <workItem from="1591241447765" duration="1429000" />
       <workItem from="1591584848628" duration="986000" />
-      <workItem from="1591585902252" duration="7217000" />
+      <workItem from="1591585902252" duration="9346000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -333,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591588252713</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1.集成mybatis-generator&#10;步骤1：添加idea插件&#10;步骤2：添加server\src\resources\generator\generatorConfig.xml&#10;步骤3：创建Maven启动命令mybatis-generator:generate">
+      <created>1591599314050</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591599314050</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +401,8 @@
     <MESSAGE value="1.新增公共模块server" />
     <MESSAGE value="1.system集成server模块" />
     <MESSAGE value="1.将通用的配置移动到server&#10;注：server配置文件的路径要放在resource/config/下" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.将通用的配置移动到server&#10;注：server配置文件的路径要放在resource/config/下" />
+    <MESSAGE value="1.集成mybatis-generator&#10;步骤1：添加idea插件&#10;步骤2：添加server\src\resources\generator\generatorConfig.xml&#10;步骤3：创建Maven启动命令mybatis-generator:generate" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.集成mybatis-generator&#10;步骤1：添加idea插件&#10;步骤2：添加server\src\resources\generator\generatorConfig.xml&#10;步骤3：创建Maven启动命令mybatis-generator:generate" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1591065560936">
@@ -419,50 +421,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591586228056" />
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591599099488">
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591599312461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591599099488" />
-    <state x="188" y="143" width="1655" height="702" key="DiffContextDialog" timestamp="1591596804352">
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591599312461" />
+    <state x="188" y="143" width="1655" height="702" key="DiffContextDialog" timestamp="1591599742998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="188" y="143" width="1655" height="702" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591596804352" />
+    <state x="188" y="143" width="1655" height="702" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591599742998" />
     <state x="1035" y="282" key="FileChooserDialogImpl" timestamp="1591005933980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1035" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591005933980" />
-    <state width="1869" height="185" key="GridCell.Tab.0.bottom" timestamp="1591596615011">
+    <state width="1619" height="377" key="GridCell.Tab.0.bottom" timestamp="1591602347561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591596615011" />
-    <state width="1869" height="185" key="GridCell.Tab.0.center" timestamp="1591596615011">
+    <state width="1619" height="377" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591602347561" />
+    <state width="1619" height="377" key="GridCell.Tab.0.center" timestamp="1591602347561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="185" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591596615011" />
-    <state width="1869" height="185" key="GridCell.Tab.0.left" timestamp="1591596615010">
+    <state width="1619" height="377" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591602347561" />
+    <state width="1619" height="377" key="GridCell.Tab.0.left" timestamp="1591602347561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="185" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591596615010" />
-    <state width="1869" height="185" key="GridCell.Tab.0.right" timestamp="1591596615011">
+    <state width="1619" height="377" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591602347561" />
+    <state width="1619" height="377" key="GridCell.Tab.0.right" timestamp="1591602347561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="185" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591596615011" />
-    <state width="991" height="468" key="GridCell.Tab.1.bottom" timestamp="1591588121827">
+    <state width="1619" height="377" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591602347561" />
+    <state width="1619" height="377" key="GridCell.Tab.1.bottom" timestamp="1591602347562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="991" height="468" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591588121827" />
-    <state width="991" height="468" key="GridCell.Tab.1.center" timestamp="1591588121827">
+    <state width="1619" height="377" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591602347562" />
+    <state width="1619" height="377" key="GridCell.Tab.1.center" timestamp="1591602347562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="991" height="468" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591588121827" />
-    <state width="991" height="468" key="GridCell.Tab.1.left" timestamp="1591588121827">
+    <state width="1619" height="377" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591602347562" />
+    <state width="1619" height="377" key="GridCell.Tab.1.left" timestamp="1591602347561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="991" height="468" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591588121827" />
-    <state width="991" height="468" key="GridCell.Tab.1.right" timestamp="1591588121827">
+    <state width="1619" height="377" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591602347561" />
+    <state width="1619" height="377" key="GridCell.Tab.1.right" timestamp="1591602347562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="991" height="468" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591588121827" />
+    <state width="1619" height="377" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591602347562" />
     <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1591586286787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
