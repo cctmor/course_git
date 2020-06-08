@@ -2,188 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/ace-ie.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/ace-part2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/ace-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/ace-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/ace.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/bootstrap-colorpicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/bootstrap-datepicker3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/bootstrap-duallistbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/bootstrap-editable.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/bootstrap-multiselect.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/bootstrap-timepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/chosen.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/colorbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/daterangepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/dropzone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/fonts.googleapis.com.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/fullcalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/images/meteorshower2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/images/pattern.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/jquery-ui.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/jquery.gritter.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/prettify.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/css/ui.jqgrid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/font-awesome/4.5.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/avatars/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/avatars/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/avatars/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/avatars/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/avatars/avatar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/avatars/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/avatars/profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/avatars/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/bootstrap-colorpicker/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/bootstrap-colorpicker/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/bootstrap-colorpicker/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/email/email1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/email/email2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/email/email3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/email/email4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/image-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/image-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/image-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/image-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/image-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/image-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/thumb-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/thumb-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/thumb-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/thumb-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/thumb-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/gallery/thumb-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/placeholder/165x90.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/placeholder/255x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/placeholder/530x270.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/images/placeholder/550x280.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/ace-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/ace-elements.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/ace-extra.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/ace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/autosize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/bootbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/bootstrap-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/bootstrap-markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/bootstrap-multiselect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/bootstrap-tag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/buttons.colVis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/buttons.flash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/buttons.html5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/buttons.print.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/chosen.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/dataTables.buttons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/dataTables.select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/daterangepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/grid.locale-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/holder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/html5shiv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery-2.1.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery-additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery-typeahead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery-ui.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.bootstrap-duallistbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.colorbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.easypiechart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.flot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.flot.pie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.flot.resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.gritter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.hotkeys.index.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.inputlimiter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.knob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.maskedinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.nestable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.raty.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.sparkline.index.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/prettify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/spin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/spinbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/tree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/assets/js/wizard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/blank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/content-slider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/dropzone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/email-confirmation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/email-contrast.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/email-navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/email-newsletter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/error-404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/error-500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/faq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/form-elements-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/form-elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/form-wizard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/inbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/invoice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/jqgrid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/jquery-ui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/mobile-menu-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/mobile-menu-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/mobile-menu-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/nestable-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/pricing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/tables.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/timeline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/top-menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/treeview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/two-menu-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/two-menu-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/typography.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/widgets.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/ace/wysiwyg.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -413,7 +233,7 @@
       <workItem from="1591584848628" duration="986000" />
       <workItem from="1591585902252" duration="10362000" />
       <workItem from="1591608357475" duration="1224000" />
-      <workItem from="1591609626972" duration="3997000" />
+      <workItem from="1591609626972" duration="4509000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -541,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591609814840</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="1.加入ace admin模板&#10;2.index.html中加入ace admin模板所需要的js css">
+      <created>1591619872934</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591619872934</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +439,8 @@
     <MESSAGE value="1.集成mybatis-generator&#10;步骤1：添加idea插件&#10;步骤2：添加server\src\resources\generator\generatorConfig.xml&#10;步骤3：创建Maven启动命令mybatis-generator:generate" />
     <MESSAGE value="1.Example使用示例&#10;使用Example可以快速完成单表的增删改查" />
     <MESSAGE value="1.使用vue cli新建admin项目&#10;目前版本是4.1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.使用vue cli新建admin项目&#10;目前版本是4.1.2" />
+    <MESSAGE value="1.加入ace admin模板&#10;2.index.html中加入ace admin模板所需要的js css" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.加入ace admin模板&#10;2.index.html中加入ace admin模板所需要的js css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1591065560936">
@@ -631,10 +459,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591586228056" />
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591609813653">
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591619870543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591609813653" />
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591619870543" />
     <state x="188" y="143" width="1655" height="702" key="DiffContextDialog" timestamp="1591619412654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -643,22 +471,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1035" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591005933980" />
-    <state width="1867" height="443" key="GridCell.Tab.0.bottom" timestamp="1591619785600">
+    <state width="1867" height="347" key="GridCell.Tab.0.bottom" timestamp="1591620345511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="443" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591619785600" />
-    <state width="1867" height="443" key="GridCell.Tab.0.center" timestamp="1591619785600">
+    <state width="1867" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591620345511" />
+    <state width="1867" height="347" key="GridCell.Tab.0.center" timestamp="1591620345510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="443" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591619785600" />
-    <state width="1867" height="443" key="GridCell.Tab.0.left" timestamp="1591619785599">
+    <state width="1867" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591620345510" />
+    <state width="1867" height="347" key="GridCell.Tab.0.left" timestamp="1591620345510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="443" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591619785599" />
-    <state width="1867" height="443" key="GridCell.Tab.0.right" timestamp="1591619785600">
+    <state width="1867" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591620345510" />
+    <state width="1867" height="347" key="GridCell.Tab.0.right" timestamp="1591620345510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="443" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591619785600" />
+    <state width="1867" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591620345510" />
     <state width="1619" height="479" key="GridCell.Tab.1.bottom" timestamp="1591608267375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -695,6 +523,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591609630249" />
+    <state width="750" height="530" key="javadoc.popup" timestamp="1591620060545">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="750" height="530" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591620060545" />
     <state x="623" y="300" key="new project wizard" timestamp="1591065033327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
