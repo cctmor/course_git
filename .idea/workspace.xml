@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/App.vue" afterDir="false" />
     </list>
@@ -78,7 +79,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -92,11 +93,11 @@
       <recent name="com.course" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\course\admin" />
       <recent name="D:\project\course\admin\public" />
       <recent name="D:\project\course\server\src\main\resources\generator" />
       <recent name="D:\project\course\server\src\main\resources\config" />
       <recent name="D:\project\course\server\src\main\resources" />
-      <recent name="D:\project\course\server\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,7 +234,7 @@
       <workItem from="1591584848628" duration="986000" />
       <workItem from="1591585902252" duration="10362000" />
       <workItem from="1591608357475" duration="1224000" />
-      <workItem from="1591609626972" duration="4509000" />
+      <workItem from="1591609626972" duration="5562000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -368,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591619872934</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="1.在App.vue中加入登录页面的元素">
+      <created>1591620436302</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591620436302</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +448,8 @@
     <MESSAGE value="1.Example使用示例&#10;使用Example可以快速完成单表的增删改查" />
     <MESSAGE value="1.使用vue cli新建admin项目&#10;目前版本是4.1.2" />
     <MESSAGE value="1.加入ace admin模板&#10;2.index.html中加入ace admin模板所需要的js css" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.加入ace admin模板&#10;2.index.html中加入ace admin模板所需要的js css" />
+    <MESSAGE value="1.在App.vue中加入登录页面的元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.在App.vue中加入登录页面的元素" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1591065560936">
@@ -459,10 +468,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591586228056" />
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591619870543">
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591620435404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591619870543" />
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591620435404" />
     <state x="188" y="143" width="1655" height="702" key="DiffContextDialog" timestamp="1591619412654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -471,22 +480,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1035" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591005933980" />
-    <state width="1867" height="347" key="GridCell.Tab.0.bottom" timestamp="1591620345511">
+    <state width="1867" height="347" key="GridCell.Tab.0.bottom" timestamp="1591620596497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591620345511" />
-    <state width="1867" height="347" key="GridCell.Tab.0.center" timestamp="1591620345510">
+    <state width="1867" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591620596497" />
+    <state width="1867" height="347" key="GridCell.Tab.0.center" timestamp="1591620596497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591620345510" />
-    <state width="1867" height="347" key="GridCell.Tab.0.left" timestamp="1591620345510">
+    <state width="1867" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591620596497" />
+    <state width="1867" height="347" key="GridCell.Tab.0.left" timestamp="1591620596497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591620345510" />
-    <state width="1867" height="347" key="GridCell.Tab.0.right" timestamp="1591620345510">
+    <state width="1867" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591620596497" />
+    <state width="1867" height="347" key="GridCell.Tab.0.right" timestamp="1591620596497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591620345510" />
+    <state width="1867" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591620596497" />
     <state width="1619" height="479" key="GridCell.Tab.1.bottom" timestamp="1591608267375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
