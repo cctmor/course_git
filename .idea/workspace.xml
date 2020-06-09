@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/admin.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +235,7 @@
       <workItem from="1591585902252" duration="10362000" />
       <workItem from="1591608357475" duration="1224000" />
       <workItem from="1591609626972" duration="6943000" />
-      <workItem from="1591669069623" duration="5268000" />
+      <workItem from="1591669069623" duration="7681000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -424,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591673880003</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="1.主要将面包屑导航、搜索、设置删除">
+      <created>1591674578369</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1591674578369</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +486,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1.解决注册中心服务启动失败的问题&#10;2.优化启动日志显示" />
     <MESSAGE value="1.新增system子项目" />
     <MESSAGE value="1.将system配置成最简单的SpringBoot项目" />
     <MESSAGE value="1.将system注册到Eureka" />
@@ -502,7 +510,8 @@
     <MESSAGE value="1.增加login页面登录按钮点击事件，跳转到admin页面" />
     <MESSAGE value="1.使用mounted解决组件初始化样式的问题" />
     <MESSAGE value="1.增加welcome子组件，增加/admin/welcome子路由router-view和子路由配合使用&#10;注意：子路由的配置不用“/”开头" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.增加welcome子组件，增加/admin/welcome子路由router-view和子路由配合使用&#10;注意：子路由的配置不用“/”开头" />
+    <MESSAGE value="1.主要将面包屑导航、搜索、设置删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.主要将面包屑导航、搜索、设置删除" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1591065560936">
@@ -521,10 +530,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591586228056" />
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591673878396">
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591674576984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591673878396" />
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591674576984" />
     <state x="188" y="143" width="1655" height="702" key="DiffContextDialog" timestamp="1591621515692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
