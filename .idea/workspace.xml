@@ -234,7 +234,7 @@
       <workItem from="1591585902252" duration="10362000" />
       <workItem from="1591608357475" duration="1224000" />
       <workItem from="1591609626972" duration="6943000" />
-      <workItem from="1591669069623" duration="3240000" />
+      <workItem from="1591669069623" duration="3777000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -404,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591671606560</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="1.增加login页面登录按钮点击事件，跳转到admin页面">
+      <created>1591672567727</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1591672567727</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +488,8 @@
     <MESSAGE value="1.安装vue-router&#10;npm install --save vue--router" />
     <MESSAGE value="1.增加login页面&#10;2.增加路由配置，访问/login时，加载login组件" />
     <MESSAGE value="1.增加admin页面&#10;2.增加路由配置，访问/admin时，加载admin组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.增加admin页面&#10;2.增加路由配置，访问/admin时，加载admin组件" />
+    <MESSAGE value="1.增加login页面登录按钮点击事件，跳转到admin页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.增加login页面登录按钮点击事件，跳转到admin页面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1591065560936">
@@ -500,10 +508,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591586228056" />
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591671605316">
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591672566621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591671605316" />
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591672566621" />
     <state x="188" y="143" width="1655" height="702" key="DiffContextDialog" timestamp="1591621515692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -512,22 +520,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1035" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591005933980" />
-    <state width="1867" height="292" key="GridCell.Tab.0.bottom" timestamp="1591670405205">
+    <state width="1137" height="294" key="GridCell.Tab.0.bottom" timestamp="1591673003776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591670405205" />
-    <state width="1867" height="292" key="GridCell.Tab.0.center" timestamp="1591670405204">
+    <state width="1137" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591673003776" />
+    <state width="1137" height="294" key="GridCell.Tab.0.center" timestamp="1591673003776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591670405204" />
-    <state width="1867" height="292" key="GridCell.Tab.0.left" timestamp="1591670405204">
+    <state width="1137" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591673003776" />
+    <state width="1137" height="294" key="GridCell.Tab.0.left" timestamp="1591673003776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591670405204" />
-    <state width="1867" height="292" key="GridCell.Tab.0.right" timestamp="1591670405205">
+    <state width="1137" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591673003776" />
+    <state width="1137" height="294" key="GridCell.Tab.0.right" timestamp="1591673003776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591670405205" />
+    <state width="1137" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591673003776" />
     <state width="1619" height="479" key="GridCell.Tab.1.bottom" timestamp="1591608267375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
