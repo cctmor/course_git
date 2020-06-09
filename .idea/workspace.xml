@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/views/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/views/admin.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/login.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -237,7 +236,7 @@
       <workItem from="1591585902252" duration="10362000" />
       <workItem from="1591608357475" duration="1224000" />
       <workItem from="1591609626972" duration="6943000" />
-      <workItem from="1591669069623" duration="1323000" />
+      <workItem from="1591669069623" duration="2442000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -393,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591621720981</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="1.增加login页面&#10;2.增加路由配置，访问/login时，加载login组件">
+      <created>1591670539384</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1591670539384</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +474,8 @@
     <MESSAGE value="1.在App.vue中加入登录页面的元素" />
     <MESSAGE value="1.简化登录页面代码&#10;2.增加eslintrc.js,去掉部分检查项&#10;解决修改代码自动编译时报错：$ is not defined" />
     <MESSAGE value="1.安装vue-router&#10;npm install --save vue--router" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.安装vue-router&#10;npm install --save vue--router" />
+    <MESSAGE value="1.增加login页面&#10;2.增加路由配置，访问/login时，加载login组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.增加login页面&#10;2.增加路由配置，访问/login时，加载login组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1591065560936">
@@ -487,10 +494,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591586228056" />
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591621719956">
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591670538129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591621719956" />
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591670538129" />
     <state x="188" y="143" width="1655" height="702" key="DiffContextDialog" timestamp="1591621515692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -539,10 +546,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="199" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1591063907537" />
-    <state x="666" y="157" key="SettingsEditor" timestamp="1591608135437">
+    <state x="574" y="95" key="SettingsEditor" timestamp="1591670656619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591608135437" />
+    <state x="574" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591670656619" />
     <state x="552" y="167" key="Vcs.Push.Dialog.v2" timestamp="1591622387643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
