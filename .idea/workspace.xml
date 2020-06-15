@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/course/server/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/admin/chapter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/admin/chapter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/com/course/business/controller/admin/ChapterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/com/course/business/controller/admin/ChapterController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +98,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/business/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/src/main/java/com/course/server/config" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -108,11 +114,11 @@
       <recent name="com.course.system" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\course\server\src\main\java\com\course\server\config" />
       <recent name="D:\project\course\business\src\main\resources" />
       <recent name="D:\project\course\business\src\main\java\com\course\business" />
       <recent name="D:\project\course\admin\src" />
       <recent name="D:\project\course\admin" />
-      <recent name="D:\project\course\admin\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,9 +226,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.serve" />
         <item itemvalue="Spring Boot.BusinessApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="npm.serve" />
         <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
       </list>
@@ -238,6 +244,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -267,7 +278,7 @@
       <workItem from="1591609626972" duration="6943000" />
       <workItem from="1591669069623" duration="9589000" />
       <workItem from="1592207111481" duration="4868000" />
-      <workItem from="1592213153564" duration="4279000" />
+      <workItem from="1592213153564" duration="6832000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -528,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592217161287</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="1.通用的sidebar点击激活样式方法，使用watch监听路由变化">
+      <created>1592217711013</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1592217711013</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +599,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1.新增公共模块server" />
     <MESSAGE value="1.system集成server模块" />
     <MESSAGE value="1.将通用的配置移动到server&#10;注：server配置文件的路径要放在resource/config/下" />
     <MESSAGE value="1.集成mybatis-generator&#10;步骤1：添加idea插件&#10;步骤2：添加server\src\resources\generator\generatorConfig.xml&#10;步骤3：创建Maven启动命令mybatis-generator:generate" />
@@ -606,7 +623,8 @@
     <MESSAGE value="1.新增chapter页面及子路由，并使用假数据制作表格" />
     <MESSAGE value="1.点击sidebar菜单实现页面跳转并增加激活样式" />
     <MESSAGE value="1.路由修改，去掉/admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.路由修改，去掉/admin" />
+    <MESSAGE value="1.通用的sidebar点击激活样式方法，使用watch监听路由变化" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.通用的sidebar点击激活样式方法，使用watch监听路由变化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1591065560936">
@@ -625,10 +643,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591586228056" />
-    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1592217159820">
+    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1592217709245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592217159820" />
+    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592217709245" />
     <state x="663" y="231" width="1272" height="681" key="DiffContextDialog" timestamp="1592207351946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -637,38 +655,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1035" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591005933980" />
-    <state width="1229" height="278" key="GridCell.Tab.0.bottom" timestamp="1592213427742">
+    <state width="1615" height="325" key="GridCell.Tab.0.bottom" timestamp="1592218679809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1229" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592213427742" />
-    <state width="1229" height="278" key="GridCell.Tab.0.center" timestamp="1592213427742">
+    <state width="1615" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592218679809" />
+    <state width="1615" height="325" key="GridCell.Tab.0.center" timestamp="1592218679808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1229" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592213427742" />
-    <state width="1229" height="278" key="GridCell.Tab.0.left" timestamp="1592213427741">
+    <state width="1615" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592218679808" />
+    <state width="1615" height="325" key="GridCell.Tab.0.left" timestamp="1592218679808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1229" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592213427741" />
-    <state width="1229" height="278" key="GridCell.Tab.0.right" timestamp="1592213427742">
+    <state width="1615" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592218679808" />
+    <state width="1615" height="325" key="GridCell.Tab.0.right" timestamp="1592218679808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1229" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592213427742" />
-    <state width="1615" height="335" key="GridCell.Tab.1.bottom" timestamp="1592213090686">
+    <state width="1615" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592218679808" />
+    <state width="1615" height="325" key="GridCell.Tab.1.bottom" timestamp="1592218679809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592213090686" />
-    <state width="1615" height="335" key="GridCell.Tab.1.center" timestamp="1592213090686">
+    <state width="1615" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592218679809" />
+    <state width="1615" height="325" key="GridCell.Tab.1.center" timestamp="1592218679809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="335" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592213090686" />
-    <state width="1615" height="335" key="GridCell.Tab.1.left" timestamp="1592213090686">
+    <state width="1615" height="325" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592218679809" />
+    <state width="1615" height="325" key="GridCell.Tab.1.left" timestamp="1592218679809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="335" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592213090686" />
-    <state width="1615" height="335" key="GridCell.Tab.1.right" timestamp="1592213090686">
+    <state width="1615" height="325" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592218679809" />
+    <state width="1615" height="325" key="GridCell.Tab.1.right" timestamp="1592218679809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="335" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592213090686" />
+    <state width="1615" height="325" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592218679809" />
     <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1591586286787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -697,9 +715,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="799" y="268" width="1121" height="757" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592207606514" />
-    <state x="859" y="245" width="840" height="678" key="search.everywhere.popup" timestamp="1592214596118">
+    <state x="859" y="245" width="840" height="678" key="search.everywhere.popup" timestamp="1592218579013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="859" y="245" width="840" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592214596118" />
+    <state x="859" y="245" width="840" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592218579013" />
   </component>
 </project>
