@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/admin/chapter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/admin/chapter.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/course/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/course/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/course/server/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/course/server/config/CorsConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +274,7 @@
       <workItem from="1591609626972" duration="6943000" />
       <workItem from="1591669069623" duration="9589000" />
       <workItem from="1592207111481" duration="4868000" />
-      <workItem from="1592213153564" duration="7080000" />
+      <workItem from="1592213153564" duration="8151000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -549,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592220048573</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="1.使用gateway路由转发，vue页面只访问gateway的端口">
+      <created>1592220318474</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1592220318474</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +609,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1.将通用的配置移动到server&#10;注：server配置文件的路径要放在resource/config/下" />
     <MESSAGE value="1.集成mybatis-generator&#10;步骤1：添加idea插件&#10;步骤2：添加server\src\resources\generator\generatorConfig.xml&#10;步骤3：创建Maven启动命令mybatis-generator:generate" />
     <MESSAGE value="1.Example使用示例&#10;使用Example可以快速完成单表的增删改查" />
     <MESSAGE value="1.使用vue cli新建admin项目&#10;目前版本是4.1.2" />
@@ -627,7 +633,8 @@
     <MESSAGE value="1.路由修改，去掉/admin" />
     <MESSAGE value="1.通用的sidebar点击激活样式方法，使用watch监听路由变化" />
     <MESSAGE value="1.大章页面显示真实数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.大章页面显示真实数据" />
+    <MESSAGE value="1.使用gateway路由转发，vue页面只访问gateway的端口" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.使用gateway路由转发，vue页面只访问gateway的端口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1591065560936">
@@ -646,10 +653,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591586228056" />
-    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1592220046266">
+    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1592220316849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592220046266" />
+    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592220316849" />
     <state x="663" y="231" width="1272" height="681" key="DiffContextDialog" timestamp="1592207351946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -658,38 +665,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1035" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591005933980" />
-    <state width="1615" height="325" key="GridCell.Tab.0.bottom" timestamp="1592220179468">
+    <state width="1615" height="325" key="GridCell.Tab.0.bottom" timestamp="1592221037594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592220179468" />
-    <state width="1615" height="325" key="GridCell.Tab.0.center" timestamp="1592220179468">
+    <state width="1615" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592221037594" />
+    <state width="1615" height="325" key="GridCell.Tab.0.center" timestamp="1592221037594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592220179468" />
-    <state width="1615" height="325" key="GridCell.Tab.0.left" timestamp="1592220179468">
+    <state width="1615" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592221037594" />
+    <state width="1615" height="325" key="GridCell.Tab.0.left" timestamp="1592221037594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592220179468" />
-    <state width="1615" height="325" key="GridCell.Tab.0.right" timestamp="1592220179468">
+    <state width="1615" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592221037594" />
+    <state width="1615" height="325" key="GridCell.Tab.0.right" timestamp="1592221037594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592220179468" />
-    <state width="1615" height="325" key="GridCell.Tab.1.bottom" timestamp="1592220179468">
+    <state width="1615" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592221037594" />
+    <state width="1615" height="325" key="GridCell.Tab.1.bottom" timestamp="1592221037594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592220179468" />
-    <state width="1615" height="325" key="GridCell.Tab.1.center" timestamp="1592220179468">
+    <state width="1615" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592221037594" />
+    <state width="1615" height="325" key="GridCell.Tab.1.center" timestamp="1592221037594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592220179468" />
-    <state width="1615" height="325" key="GridCell.Tab.1.left" timestamp="1592220179468">
+    <state width="1615" height="325" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592221037594" />
+    <state width="1615" height="325" key="GridCell.Tab.1.left" timestamp="1592221037594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592220179468" />
-    <state width="1615" height="325" key="GridCell.Tab.1.right" timestamp="1592220179468">
+    <state width="1615" height="325" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592221037594" />
+    <state width="1615" height="325" key="GridCell.Tab.1.right" timestamp="1592221037594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592220179468" />
+    <state width="1615" height="325" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592221037594" />
     <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1591586286787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
