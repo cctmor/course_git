@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +267,7 @@
       <workItem from="1591609626972" duration="6943000" />
       <workItem from="1591669069623" duration="9589000" />
       <workItem from="1592207111481" duration="4868000" />
-      <workItem from="1592213153564" duration="3915000" />
+      <workItem from="1592213153564" duration="4279000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -522,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592216841615</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="1.路由修改，去掉/admin">
+      <created>1592217161287</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1592217161287</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +581,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="集成热部署DevTools&#10;  1.引入依赖&#10;  2.IDEA开启项目自动编译，进入设置，搜索Compiler,勾选Build Project&#10;  automatically&#10;  3.IDEA开启项目运行是自动编译，连按两次shift，搜索registry,勾选compiler.automake.allow.when.app.running&#10;  4.优化mybatis日志输出" />
     <MESSAGE value="1.新增公共模块server" />
     <MESSAGE value="1.system集成server模块" />
     <MESSAGE value="1.将通用的配置移动到server&#10;注：server配置文件的路径要放在resource/config/下" />
@@ -600,7 +605,8 @@
     <MESSAGE value="1.增加dto层，用于controller和server层&#10;2.增加chapterDto&#10;3.修改chapterServer,将返回chapter改成返回chapterDto" />
     <MESSAGE value="1.新增chapter页面及子路由，并使用假数据制作表格" />
     <MESSAGE value="1.点击sidebar菜单实现页面跳转并增加激活样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.点击sidebar菜单实现页面跳转并增加激活样式" />
+    <MESSAGE value="1.路由修改，去掉/admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.路由修改，去掉/admin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1591065560936">
@@ -619,10 +625,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591586228056" />
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1592213669843">
+    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1592217159820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592213669843" />
+    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592217159820" />
     <state x="663" y="231" width="1272" height="681" key="DiffContextDialog" timestamp="1592207351946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
