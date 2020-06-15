@@ -6,6 +6,9 @@ create table `chapter` (
     primary key (`id`)
 ) engine=innodb default charset=utf8mb4 comment='大章';
 
+INSERT INTO `chapter` (`id`, `course_id`,`name`) VALUES ('111','111','测试');
+INSERT INTO `chapter` (`id`, `course_id`,`name`) VALUES ('222','222','测试');
+
 ------------测试
 
 DROP TABLE IF EXISTS `test`;
