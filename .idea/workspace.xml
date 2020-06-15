@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/business/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/db/all.sql" beforeDir="false" afterPath="$PROJECT_DIR$/doc/db/all.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +27,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="course@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="course@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="course">
+      <favorite_root url="file://$PROJECT_DIR$/server/src/main/resources/generator/generatorConfig.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,11 +107,11 @@
       <recent name="com.course" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\course\business\src\main\resources" />
+      <recent name="D:\project\course\business\src\main\java\com\course\business" />
       <recent name="D:\project\course\admin\src" />
       <recent name="D:\project\course\admin" />
       <recent name="D:\project\course\admin\public" />
-      <recent name="D:\project\course\server\src\main\resources\generator" />
-      <recent name="D:\project\course\server\src\main\resources\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -110,7 +121,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BusinessApplication">
+  <component name="RunManager" selected="Maven.mybatis-generator">
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -227,6 +238,20 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:course@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:course@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@31bd49e7" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -254,7 +279,7 @@
       <workItem from="1591608357475" duration="1224000" />
       <workItem from="1591609626972" duration="6943000" />
       <workItem from="1591669069623" duration="9589000" />
-      <workItem from="1592207111481" duration="1094000" />
+      <workItem from="1592207111481" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -466,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591677620718</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="1.增加business模块，并增加初始启动代码">
+      <created>1592209390149</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1592209390149</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +551,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1.将system注册到Eureka" />
     <MESSAGE value="1.新增gateway子模块，增加gateway依赖，并注册到注册中心" />
     <MESSAGE value="1.在gateway增加system路由转发配置，调式成功" />
     <MESSAGE value="1.集成mybatis框架，启动成功" />
@@ -544,7 +575,8 @@
     <MESSAGE value="1.主要将面包屑导航、搜索、设置删除" />
     <MESSAGE value="1.增加js依赖，解决navbar中，三个菜单的点击弹窗效果，js从ace/index.html复制&#10;2.使用相对路径解决头像路径问题" />
     <MESSAGE value="1.侧边栏去掉无用的菜单&#10;2.底部文案修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.侧边栏去掉无用的菜单&#10;2.底部文案修改" />
+    <MESSAGE value="1.增加business模块，并增加初始启动代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.增加business模块，并增加初始启动代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1591065560936">
@@ -563,10 +595,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591586228056" />
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1591677619574">
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1592209388377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591677619574" />
+    <state x="737" y="87" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592209388377" />
     <state x="663" y="231" width="1272" height="681" key="DiffContextDialog" timestamp="1592207351946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -575,38 +607,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1035" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591005933980" />
-    <state width="1615" height="429" key="GridCell.Tab.0.bottom" timestamp="1592209350892">
+    <state width="1229" height="368" key="GridCell.Tab.0.bottom" timestamp="1592210165275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="429" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592209350892" />
-    <state width="1615" height="429" key="GridCell.Tab.0.center" timestamp="1592209350892">
+    <state width="1229" height="368" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592210165275" />
+    <state width="1229" height="368" key="GridCell.Tab.0.center" timestamp="1592210165275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="429" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592209350892" />
-    <state width="1615" height="429" key="GridCell.Tab.0.left" timestamp="1592209350892">
+    <state width="1229" height="368" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592210165275" />
+    <state width="1229" height="368" key="GridCell.Tab.0.left" timestamp="1592210165275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="429" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592209350892" />
-    <state width="1615" height="429" key="GridCell.Tab.0.right" timestamp="1592209350892">
+    <state width="1229" height="368" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592210165275" />
+    <state width="1229" height="368" key="GridCell.Tab.0.right" timestamp="1592210165275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="429" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592209350892" />
-    <state width="1615" height="429" key="GridCell.Tab.1.bottom" timestamp="1592209350893">
+    <state width="1229" height="368" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592210165275" />
+    <state width="1052" height="441" key="GridCell.Tab.1.bottom" timestamp="1592209849306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="429" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592209350893" />
-    <state width="1615" height="429" key="GridCell.Tab.1.center" timestamp="1592209350893">
+    <state width="1052" height="441" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592209849306" />
+    <state width="1052" height="441" key="GridCell.Tab.1.center" timestamp="1592209849306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="429" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592209350893" />
-    <state width="1615" height="429" key="GridCell.Tab.1.left" timestamp="1592209350892">
+    <state width="1052" height="441" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592209849306" />
+    <state width="1052" height="441" key="GridCell.Tab.1.left" timestamp="1592209849305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="429" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592209350892" />
-    <state width="1615" height="429" key="GridCell.Tab.1.right" timestamp="1592209350893">
+    <state width="1052" height="441" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592209849305" />
+    <state width="1052" height="441" key="GridCell.Tab.1.right" timestamp="1592209849306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="429" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592209350893" />
+    <state width="1052" height="441" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592209849306" />
     <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1591586286787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
