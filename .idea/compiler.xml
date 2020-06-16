@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="system" />
-        <module name="server" />
-        <module name="gateway" />
         <module name="business" />
+        <module name="system" />
+        <module name="gateway" />
+        <module name="server" />
         <module name="eureka" />
       </profile>
     </annotationProcessing>

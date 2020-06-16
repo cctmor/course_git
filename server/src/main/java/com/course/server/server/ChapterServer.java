@@ -4,6 +4,7 @@ import com.course.server.domain.Chapter;
 import com.course.server.domain.ChapterExample;
 import com.course.server.dto.ChapterDto;
 import com.course.server.mapper.ChapterMapper;
+import com.github.pagehelper.PageHelper;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
@@ -20,6 +21,7 @@ public class ChapterServer {
     public List<ChapterDto> lists(){
         //查询所有
         //return chapterMapper.selectByExample(null);
+        PageHelper.startPage(2,1);
         //根据条件查询
         ChapterExample chapterExample = new ChapterExample();
 //        chapterExample.createCriteria().andIdEqualTo("111");

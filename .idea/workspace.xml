@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9de6810-5fc2-4efc-9e4c-ff927679aa79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/course/server/server/ChapterServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/course/server/server/ChapterServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,8 +225,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="npm.serve" />
         <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="npm.serve" />
         <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="Spring Boot.SystemApplication" />
       </list>
@@ -248,7 +251,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -278,7 +281,9 @@
       <workItem from="1591609626972" duration="6943000" />
       <workItem from="1591669069623" duration="9589000" />
       <workItem from="1592207111481" duration="4868000" />
-      <workItem from="1592213153564" duration="9089000" />
+      <workItem from="1592213153564" duration="10071000" />
+      <workItem from="1592281075017" duration="164000" />
+      <workItem from="1592281270789" duration="569000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交项目">
       <created>1591005535938</created>
@@ -567,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592221332669</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="1.使用lb://+注册中心名称作路由转发">
+      <created>1592222458245</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1592222458245</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +632,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1.Example使用示例&#10;使用Example可以快速完成单表的增删改查" />
     <MESSAGE value="1.使用vue cli新建admin项目&#10;目前版本是4.1.2" />
     <MESSAGE value="1.加入ace admin模板&#10;2.index.html中加入ace admin模板所需要的js css" />
     <MESSAGE value="1.在App.vue中加入登录页面的元素" />
@@ -645,7 +656,8 @@
     <MESSAGE value="1.大章页面显示真实数据" />
     <MESSAGE value="1.使用gateway路由转发，vue页面只访问gateway的端口" />
     <MESSAGE value="1.解决gateway跨域问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.解决gateway跨域问题" />
+    <MESSAGE value="1.使用lb://+注册中心名称作路由转发" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.使用lb://+注册中心名称作路由转发" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Inspections" timestamp="1591065560936">
@@ -664,10 +676,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591586228056" />
-    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1592221331146">
+    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2" timestamp="1592222456635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592221331146" />
+    <state x="854" y="123" width="1066" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592222456635" />
     <state x="663" y="231" width="1272" height="681" key="DiffContextDialog" timestamp="1592207351946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -676,38 +688,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1035" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591005933980" />
-    <state width="1615" height="325" key="GridCell.Tab.0.bottom" timestamp="1592222323140">
+    <state width="1615" height="325" key="GridCell.Tab.0.bottom" timestamp="1592281852546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592222323140" />
-    <state width="1615" height="325" key="GridCell.Tab.0.center" timestamp="1592222323140">
+    <state width="1615" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592281852546" />
+    <state width="1615" height="325" key="GridCell.Tab.0.center" timestamp="1592281852546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592222323140" />
-    <state width="1615" height="325" key="GridCell.Tab.0.left" timestamp="1592222323140">
+    <state width="1615" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592281852546" />
+    <state width="1615" height="325" key="GridCell.Tab.0.left" timestamp="1592281852546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592222323140" />
-    <state width="1615" height="325" key="GridCell.Tab.0.right" timestamp="1592222323140">
+    <state width="1615" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592281852546" />
+    <state width="1615" height="325" key="GridCell.Tab.0.right" timestamp="1592281852546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592222323140" />
-    <state width="1615" height="325" key="GridCell.Tab.1.bottom" timestamp="1592222323140">
+    <state width="1615" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592281852546" />
+    <state width="1615" height="325" key="GridCell.Tab.1.bottom" timestamp="1592281852546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592222323140" />
-    <state width="1615" height="325" key="GridCell.Tab.1.center" timestamp="1592222323140">
+    <state width="1615" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592281852546" />
+    <state width="1615" height="325" key="GridCell.Tab.1.center" timestamp="1592281852546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592222323140" />
-    <state width="1615" height="325" key="GridCell.Tab.1.left" timestamp="1592222323140">
+    <state width="1615" height="325" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592281852546" />
+    <state width="1615" height="325" key="GridCell.Tab.1.left" timestamp="1592281852546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592222323140" />
-    <state width="1615" height="325" key="GridCell.Tab.1.right" timestamp="1592222323140">
+    <state width="1615" height="325" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592281852546" />
+    <state width="1615" height="325" key="GridCell.Tab.1.right" timestamp="1592281852546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1615" height="325" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592222323140" />
+    <state width="1615" height="325" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592281852546" />
     <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1591586286787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -724,10 +736,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="167" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591622387643" />
-    <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1592213171135">
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1592281272116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592213171135" />
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592281272116" />
     <state width="750" height="530" key="javadoc.popup" timestamp="1591620060545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
