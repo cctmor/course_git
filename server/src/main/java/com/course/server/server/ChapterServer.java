@@ -21,7 +21,7 @@ public class ChapterServer {
     public List<ChapterDto> lists(){
         //查询所有
         //return chapterMapper.selectByExample(null);
-        PageHelper.startPage(2,1);
+        PageHelper.startPage(1,1);
         //根据条件查询
         ChapterExample chapterExample = new ChapterExample();
 //        chapterExample.createCriteria().andIdEqualTo("111");
